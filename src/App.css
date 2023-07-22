@@ -24,6 +24,16 @@
   color: white;
 }
 
+.App-body {
+  min-height: 100vh;
+  background-image: url("./res/window-with-snowy-landscape-outside.jpg");
+}
+
+.Message-box {
+  display: inline-block;
+  margin-top: 25vh;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +46,4 @@
     transform: rotate(360deg);
   }
 }
+
