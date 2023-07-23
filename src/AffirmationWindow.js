@@ -31,7 +31,6 @@ function characterTyped() {
         affirmation = getAffirmation();
         document.getElementById('text21').value = "";
     }
-    
 }
 
 export default function AffirmationWindow() {

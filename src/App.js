@@ -4,6 +4,7 @@ import './XP.css';
 import React, { useEffect, useState } from "react";
 import AffirmationWindow from './AffirmationWindow';
 import SeasonWindow from './SeasonWindow';
+import MusicWindow from './MusicWindow';
 
 function App() {
   
@@ -25,9 +26,10 @@ function App() {
         </a>
       </header> */}
       </div>
-      <div className='App-body'>
+      <div className='App-body' id = "bg">
         <AffirmationWindow />
-        <SeasonWindow />
+        <div className='Window-container'><SeasonWindow /><MusicWindow /></div>
+        
       </div>
     </div>
   );
