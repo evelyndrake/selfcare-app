@@ -1,0 +1,25 @@
+.Message-box {
+    display: inline-block;
+    margin-top: 25vh;
+}
+
+#affirmationLabel {
+    animation: waviy 1s;
+    animation-delay: calc(.1s * var(--i));
+}
+
+@keyframes waviy {
+    100% {
+      transform: translateY(0);
+      opacity: 100;
+    }
+    0% {
+      transform: translateY(-75px);
+      opacity: 0;
+    }
+}
+
+.Season-icon {
+  height: 5vh;
+  margin-left: .5vw;
+}
