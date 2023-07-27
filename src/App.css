@@ -27,6 +27,9 @@
 .App-body {
   min-height: 100vh;
   background-image: url("./res/window-with-snowy-landscape-outside.jpg");
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;
   justify-content: space-around;
   display: flex;
   flex-direction: column;

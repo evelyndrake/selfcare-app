@@ -18,7 +18,7 @@ export default function MusicWindow() {
                 </div>
                     <div className="Window-body">
                     <div className="field-row" style={{ justifyContent: "center" }}>
-                    <iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1656786391&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div><a href="https://soundcloud.com/evelyn-drake-200190693" title="Evelyn Drake" target="_blank"></a></div>
+                    <iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1656786391&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true"></iframe><div><a href="https://soundcloud.com/evelyn-drake-200190693" title="Evelyn Drake" target="_blank"></a></div>
                     </div>
                 </div>
             </div>
